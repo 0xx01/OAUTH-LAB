@@ -1,6 +1,6 @@
 # OAUTH-LAB
 
-A practical Laravel-based OAuth2 lab designed for developers and security researchers to understand and test various OAuth2 scenarios, including misconfigurations and common vulnerabilities like CSRF and open redirect.
+A practical Laravel-based OAuth2 lab designed for developers and security researchers to understand and test various OAuth2 scenarios, including misconfigurations and common vulnerabilities like CSRF and etc...
 
 ## Purpose
 
