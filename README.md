@@ -39,7 +39,7 @@ git clone https://github.com/0xx01/OAuth-LAB.git
 cd OAuth-LAB
 cp .env.example .env
 ```
-** Install dependencies: **
+**Install dependencies:**
 
 ```bash
 composer install
