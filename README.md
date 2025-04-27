@@ -34,8 +34,8 @@ This lab simulates real-world OAuth2 flows and is meant for:
 
 **Clone the repo LAB:**
    ```bash
-   git clone https://github.com/your-username/OAUTH-LAB.git
-   cd OAUTH-LAB
+   git clone https://github.com/0xx01/OAuth-LAB.git
+   cd OAuth-LAB
    cp .env.example .env
 
 ** Install dependencies: **
