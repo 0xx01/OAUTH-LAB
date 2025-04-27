@@ -33,12 +33,14 @@ This lab simulates real-world OAuth2 flows and is meant for:
 ## Setup Instructions
 
 **Clone the repo LAB:**
-   ```bash
-   git clone https://github.com/0xx01/OAuth-LAB.git
-   cd OAuth-LAB
-   cp .env.example .env```
+```bash
+git clone https://github.com/0xx01/OAuth-LAB.git
+cd OAuth-LAB
+cp .env.example .env```
+
 
 ** Install dependencies: **
+
 ```bash
 composer install
 npm install && npm run dev
