@@ -33,12 +33,12 @@ This lab simulates real-world OAuth2 flows and is meant for:
 ## Setup Instructions
 
 **Clone the repo LAB:**
+
 ```bash
 git clone https://github.com/0xx01/OAuth-LAB.git
 cd OAuth-LAB
-cp .env.example .env```
-
-
+cp .env.example .env
+```
 ** Install dependencies: **
 
 ```bash
@@ -77,8 +77,6 @@ php artisan serve
 | 2  | Pre-Account Takeover               | Attacker registers email before victim uses OAuth.                         | Full Account Hijack                    |
 | 3  | No Refresh Token Rotation          | Refresh token reused multiple times without rotation.                      | Long-Term Token Theft                  |
 | 4  | Missing Email Verification in OAuth| OAuth login bypasses manual email verification.                            | Access to Unverified Accounts          |
-
-
 
 
 ## Contributions
