@@ -12,7 +12,7 @@ class ConnectWithGoogleController extends Controller
     # Redirect user to Google 
     public function redirectToGoogle()
     {
-        config(['services.google.redirect' => "https://623f-154-143-61-223.ngrok-free.app/account/connect/google"]);
+        config(['services.google.redirect' => "https://Your_domain/account/connect/google"]);
         return Socialite::driver('google')->with(['prompt' => 'consent', 'access_type' => 'offline'])->redirect();
     }
 
