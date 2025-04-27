@@ -12,7 +12,7 @@ class ConnectWithGoogleController extends Controller
     # Redirect user to Google 
     public function redirectToGoogle()
     {
-        config(['services.google.redirect' => "https://Your_domain/account/connect/google"]);
+        config(['services.google.redirect' => "https://127.0.0.1/account/connect/google"]);
         return Socialite::driver('google')->with(['prompt' => 'consent', 'access_type' => 'offline'])->redirect();
     }
 
