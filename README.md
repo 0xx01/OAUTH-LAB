@@ -48,7 +48,7 @@ npm install && npm run dev
 **Configure .env: env**
 1. Go to Google Cloud Console.
 2. Create a new OAuth2 credential
-3. Add Authorized redirect URLS and copy client_id, CLIENT_SECRET to addd in .env file.
+3. Add Authorized redirect URLS and copy `client_id`, `CLIENT_SECRET` to add in `.env` file.
 ```GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 GOOGLE_REDIRECT_URI=https://yourdomain.com/auth/callback
